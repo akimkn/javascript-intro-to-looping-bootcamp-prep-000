@@ -21,5 +21,5 @@ function doWhileLoop(array) {
 }
 
 do {
-  doWhileLoop(array)
-  while (array.length > 0 && maybeTrue())}
+  dowhileLoop(array)
+} while (array.length > 0 && maybeTrue())
