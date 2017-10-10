@@ -1,6 +1,8 @@
 function forLoop(array) {
+  var result = []
+  result === [...array]
   for (var i=1, i<26; i++) {
-    array.push("I am ${i} strange loops.")
+    result.push("I am ${i} strange loops.")
   }
-  return array
+  return result
 }
